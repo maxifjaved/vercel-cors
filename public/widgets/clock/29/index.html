@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Date-Time Widget</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="responsive.css">
+</head>
+<body>
+<div class="rt-wrapper">
+	<div class="rt-weather rt-datetimewidget rt-datetimewidgetthree">
+		<div class="rt-datetimebox">
+			<div class="rt-centeralignbox rt-flexcontainer">
+				<time id="clock" datetime="2021-12-12">09:00 <sub>am</sub></time>
+			</div>
+			<div class="rt-weathertemperature rt-flexcontainer">
+				<div class="rt-textalignleft">
+					<h3 id="dayName">Tuesday</h3>
+					<time id="monthDayYear">December 08 , 2020</time>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.2/moment.min.js'></script>
+<script src="./script.js"></script>
+</body>
+</html>

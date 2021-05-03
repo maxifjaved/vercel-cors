@@ -1,0 +1,101 @@
+/* -- Border is required for #clock-face top-margin to work
+      in this case, I used a transparent border
+      because it doesn't really *need* to be visualized -- */
+div {
+	border: 1px solid transparent;
+}
+/* -- The outside rim of the clock with gradient -- */
+#clock-rim {
+	display: block;
+	position: relative;
+	width: 300px;
+	height: 300px;
+	background: linear-gradient(to right, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+	border-radius: 150px;
+	box-shadow: 20px 2px 20px 2px grey;
+}
+/* -- Clock's face -- */
+#clock-face {
+	display: block;
+	position: relative;
+	width: 260px;
+	height: 260px;
+	margin: 19px auto;
+	border-radius: 150px;
+	background: mistyrose;
+}
+/* -- Second hand -- */
+#second {
+	position: absolute;
+	top: 123px;
+	left: 128px;
+	width: 100px;
+	height: 2px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	transform: unset;
+	background: linear-gradient(to right, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+	transform-origin: 1px 1px;
+}
+/* -- Minute hand -- */
+#minute {
+	position: absolute;
+	top: 123px;
+	left: 128px;
+	width: 100px;
+	height: 4px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	transform: unset;
+	background: linear-gradient(to right, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+	transform-origin: 2px 2px;
+}
+/* -- Hour hand -- */
+#hour {
+	position: absolute;
+	top: 123px;
+	left: 128px;
+	width: 50px;
+	height: 4px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	transform: unset;
+	background: linear-gradient(to right, rgba(255, 0, 132, 1) 0%, rgba(255, 0, 132, 1) 100%);
+	transform-origin: 2px 2px;
+}
+/* -- Center of the clock -- */
+#center {
+	position: absolute;
+	top: 118px;
+	left: 120px;
+	width: 16px;
+	height: 16px;
+	background: purple;
+	border: 1px solid gray;
+	border-radius: 16px;
+}
+/* -- "HTML clock"  in a box -- */
+#notch-container {
+	width: 260px;
+	height: 260px;
+	margin: 25px;
+}
+/* -- Hourly notch (thicker, but sparse) -- */
+.notch {
+	position: absolute;
+	width: 10px;
+	height: 2px;
+	background: black;
+	border-radius: 5px 5px 5px 5px;
+}
+/* -- Minute notch (thin) -- */
+.thin {
+	position: absolute;
+	width: 10px;
+	height: 1px;
+	border-top: 1px solid gray;
+}
+body {
+	background: mistyrose;
+	font-family: 'Great Vibes', cursive;
+}

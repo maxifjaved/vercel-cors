@@ -1,1 +1,1 @@
-# vercel-cors
+# vercel

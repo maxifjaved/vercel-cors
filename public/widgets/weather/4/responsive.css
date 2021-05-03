@@ -1,0 +1,75 @@
+@media (max-width: 1200px) {
+    .rt-weathericon {
+        width: 80px;
+        height: 64px;
+    }
+    .rt-citynametime h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .rt-weatherbox {max-width: 450px;}
+    .rt-weathertemperature h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .rt-weathertemperature h3 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .rt-weatherwidgettwo .rt-weathertemperature h3 em {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .rt-weatherwidgettwo span {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .rt-weatherwidgetthree .rt-weathericon {
+        width: 95px;
+        height: 75px;
+    }
+    .rt-weatherwidgetthree .rt-weathertemperature h3 {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .rt-weatherwidgetthree .rt-weathertemperature h3 em {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .rt-datetimewidget .rt-centeralignbox time {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .rt-datetimewidget .rt-centeralignbox time sub {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .rt-datetimewidget .rt-weathertemperature time {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .rt-datetimewidgettwo .rt-weathertemperature time {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .rt-datetimewidgetthree .rt-weathertemperature h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .rt-weatherwidgetthree .rt-weathertemperature h2{line-height: 36px;}
+    .rt-datetimewidgetthree .rt-weathertemperature time{padding: 0;}
+    .rt-weathertemperature h3 em {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .rt-weathertemperature h2:after {
+        top: 2px;
+        left: 38px;
+        width: 5px;
+        height: 5px;
+    }
+    .rt-weatherwidgetthree .rt-weathertemperature h2:after{top: -3px;}
+}
+@media (max-width: 400px) {
+    .rt-weatherwidgetthree .rt-weathertemperature h3:after {left: -10px;}
+}
